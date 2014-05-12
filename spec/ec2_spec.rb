@@ -7,7 +7,7 @@ describe "EC2" do
     subject(:instances) do
       ec2.instances
     end
-    it { should have(0).instances }
+    it { should have(5).instances }
   end
 
   describe "Volumes" do
